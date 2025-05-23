@@ -5,9 +5,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   const socialLinks = [
     { Icon: Mail, href: 'mailto:moonisbaig@aol.com', label: 'Email' },
-    { Icon: Twitter, href: 'https://twitter.com/moonis_baig', label: 'Twitter' }, // Assuming a handle, replace if different
-    { Icon: Linkedin, href: 'https://linkedin.com/in/moonisbaig', label: 'LinkedIn' }, // Assuming a handle
-    { Icon: Instagram, href: 'https://instagram.com/moonis.baig', label: 'Instagram' }, // Assuming a handle
+    { Icon: Twitter, href: 'https://x.com/Moonisbaig?t=jjL0hv6zcRIfsmns6uYiZw&s=09', label: 'Twitter' }, // Assuming a handle, replace if different
+    { Icon: Linkedin, href: 'https://www.linkedin.com/in/moonis-baig-28a797227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', label: 'LinkedIn' }, // Assuming a handle
+    { Icon: Instagram, href: 'https://www.instagram.com/moonisbaig?igsh=MXRjM2ZzZXdydzZlMA==', label: 'Instagram' }, // Assuming a handle
   ];
 
   return (
