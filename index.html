@@ -10,6 +10,11 @@
 		<title>Moonis Baig | Portfolio</title>
 	</head>
 	<body>
+		 <div class="cursor-tracker" id="cursor"></div>
+		<script>
+			const cursor = document.getElementById('cursor');
+    document.addEventListener('mousemove', e => {
+      cursor.style.transform = `translate(${e.clientX - 15}px, ${e.clientY - 15}px)`; </script>
 		<div id="root"></div>
 		<script type="module" src="src/main.jsx"></script> 
 	</body>
