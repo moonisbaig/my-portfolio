@@ -50,7 +50,17 @@
   /* Fallback for Inter font if not available via a CDN or local import */
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
 }
-
+ .cursor-tracker {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      border: 2px solid #ccc;
+      border-radius: 50%;
+      pointer-events: none;
+      transition: transform 0.1s ease-out;
+      z-index: 9999;
 /* Scrollbar styling for a more modern look (optional) */
 ::-webkit-scrollbar {
   width: 8px;
